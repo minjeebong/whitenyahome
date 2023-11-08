@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사 하기</title>
+</head>
+
+<body>
+    <h1>제 블로그에 와줘서 ㄳ합니다</h1>
+    <form action="#">
+        <fieldset>
+            <legend>설문조사</legend>
+            <div>
+                <textarea name="noticeboard" cols="40" rows="5" placeholder="민지 블로그에 왜 왔는지 적어주세여"></textarea>
+            </div>
+            <button>등록</button>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>님이 좋아하는 것</legend>
+            <div>
+                <label>
+                    <input type="text" name="like_u" placeholder="민지나 백설이를 적으세여">
+                </label>
+                <button>백설</button>
+            </div>
+            <hr>
+            <h2>민지네 가족 최애</h2>
+            <select name="favorite_family" multiple size="3">
+                <!-- favorite(페이버릿) : 좋아하는, 잘하는-->
+                <option value="민지">민지</option>
+                <option value="백설이" selected>백설</option>
+                <option value="아버지">아빠</option>
+                <option value="메롱이">(메롱이)선택금지</option>
+                <option value="추미미">옴마</option>
+            </select>
+            <hr>
+            <h2>님의 직업을 적어주세여</h2>
+            <select name="job">
+                <optgroup label="무직 백수">
+                    <option value="도적">도적</option>
+                    <option value="궁수">궁수</option>
+                    <option value="마법사">마법사</option>
+                    <option value="해적">해적</option>
+                    <option value="전사">전사</option>
+                </optgroup>
+                <optgroup label="직업이 있음">
+                    <option value="거짓말">거짓ㄴㄴ</option>
+
+                </optgroup>
+            </select>
+            <hr>
+
+            <button>전송</button> 
+            <p>사실 전송 및 저장 기능은 업습니다 헤헤 그럼20000</p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
